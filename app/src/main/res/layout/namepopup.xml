@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/popup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+
+    <TextView
+        android:id="@+id/profileInfo"
+        android:layout_width="104dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:gravity="center"
+        android:text="Profile Info"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="118dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColorHighlight="?android:attr/colorActivatedHighlight" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="71dp"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="236dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Next" />
+
+    <TextView
+        android:id="@+id/hint"
+        android:layout_width="248dp"
+        android:layout_height="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:gravity="center"
+        android:text="Please provide your name"
+        android:textStyle="bold" />
+</RelativeLayout>
